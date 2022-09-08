@@ -14,6 +14,16 @@ cache:
   directories:
     - '$HOME/.m2/repository'
     - '$HOME/.gradle'
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  local_dir: public
+  on:
+    branch: master
+
 script: "./gradlew clean build"
 
 # CI 실행 완료 시 메일로 알람
