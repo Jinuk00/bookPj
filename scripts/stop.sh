@@ -1,5 +1,4 @@
 #!/bin/bash
-echo">stop 실행!"
 
 ABSPATH=$(readlink -f $0)
 ABSDIR=$(dirname $ABSPATH)
