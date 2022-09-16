@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/env bash
 
 echo "실행"
