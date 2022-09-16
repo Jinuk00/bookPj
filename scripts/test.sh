@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-ABSPATH=$(readlink -f $0)
+IDLE_PORT=$(find_idle_port)
