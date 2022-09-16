@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo">stop 실행!"
+
 ABSPATH=$(readlink -f $0)
 ABSDIR=$(dirname $ABSPATH)
 source ${ABSDIR}/profile.sh
