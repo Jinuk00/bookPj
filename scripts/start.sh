@@ -6,7 +6,7 @@ source ${ABSDIR}/profile.sh
 
 REPOSITORY=/home/ec2-user/app/step3
 
-echo "> Build 파일 복사 "
+echo "> Build 파일 복사"
 echo "> cp $REPOSITORY/zip/*.jar $REPOSITORY/"
 
 cp $REPOSITORY/zip/*.jar $REPOSITORY/
