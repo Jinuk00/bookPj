@@ -11,7 +11,7 @@ permissions:
     group: ec2-user
 hooks:
   AfterInstall:
-    - location: scripts/stop.sh # 엔진엑스와 연결되어있지 않은 스프링부트 종료
+    - location: scripts/tras.sh, scripts/stop.sh # 엔진엑스와 연결되어있지 않은 스프링부트 종료
       timeout : 60
       runas: ec2-user
   ApplicationStart:
